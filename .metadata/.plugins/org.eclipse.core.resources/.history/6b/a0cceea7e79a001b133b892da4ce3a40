@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -16,10 +15,7 @@ public class PositiveTests {
 		
 		// create driver
 		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-		ChromeOptions chromeOptions = new ChromeOptions();
-		chromeOptions.addArguments("--headless");
-		
-		WebDriver driver = new ChromeDriver(chromeOptions);
+		WebDriver driver = new ChromeDriver();
 		
 		//sleep for 3 seconds
 		sleep(3000);

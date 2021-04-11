@@ -7,10 +7,10 @@
     </classes>
   </test>
  
-<!--   <test name="NegativeTests">
+  <test name="NegativeTests">
     <classes>
       <class name="com.herokuapp.theinternet.NegativeTests"/>
     
     </classes>
-  </test> -->
+  </test>
 </suite>
