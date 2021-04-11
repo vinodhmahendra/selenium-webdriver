@@ -1,0 +1,30 @@
+package com.herokuapp.theinternet;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class PositiveTests {
+	
+	@Test
+	public void loginTest() {
+		System.out.println("starting login test");
+		
+		// create driver
+		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		//open test page
+		
+		//enter username
+		
+		//enter password
+		
+		//click login button
+		
+		//Verifications
+		//new url
+		//logout button is visible
+		//successful login message
+	}
+
+}

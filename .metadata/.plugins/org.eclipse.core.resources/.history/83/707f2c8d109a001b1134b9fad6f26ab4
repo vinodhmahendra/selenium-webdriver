@@ -1,0 +1,25 @@
+package com.herokuapp.theinternet;
+
+import org.testng.annotations.Test;
+
+public class PositiveTests {
+	
+	@Test
+	public void loginTest() {
+		// create driver
+		
+		//open test page
+		
+		//enter username
+		
+		//enter password
+		
+		//click login button
+		
+		//Verifications
+		//new url
+		//logout button is visible
+		//successful login message
+	}
+
+}

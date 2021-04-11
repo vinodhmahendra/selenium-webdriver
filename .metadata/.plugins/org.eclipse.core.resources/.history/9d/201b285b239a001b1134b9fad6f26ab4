@@ -1,0 +1,9 @@
+package com.herokuapp.theinternet;
+
+public class AlertTests {
+	
+	public void alertdialogTest() {
+		
+	}
+
+}
